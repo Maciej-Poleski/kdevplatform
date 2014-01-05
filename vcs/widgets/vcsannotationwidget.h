@@ -22,7 +22,7 @@
 #ifndef KDEVPLATFORM_VCSANNOTATIONWIDGET_H
 #define KDEVPLATFORM_VCSANNOTATIONWIDGET_H
 
-#include <QtGui/QWidget>
+#include <QWidget>
 
 #include "../vcsexport.h"
 
