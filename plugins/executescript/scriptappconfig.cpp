@@ -49,7 +49,7 @@
 
 KIcon ScriptAppConfigPage::icon() const
 {
-    return KIcon("system-run");
+    return QIcon::fromTheme("system-run");
 }
 
 void ScriptAppConfigPage::loadFromConfiguration(const KConfigGroup& cfg, KDevelop::IProject* project )
@@ -201,7 +201,7 @@ QString ScriptAppConfigType::id() const
 
 KIcon ScriptAppConfigType::icon() const
 {
-    return KIcon("preferences-plugin-script");
+    return QIcon::fromTheme("preferences-plugin-script");
 }
 
 bool ScriptAppConfigType::canLaunch(const KUrl& /*file*/) const

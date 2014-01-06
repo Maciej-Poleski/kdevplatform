@@ -13,11 +13,12 @@
 
 #include "localpatchsource.h"
 
+#include <QIcon>
+
 #include <ktemporaryfile.h>
 #include <kdebug.h>
 #include <klocale.h>
 #include <kprocess.h>
-#include <KIcon>
 #include <kshell.h>
 
 LocalPatchSource::LocalPatchSource()
@@ -40,7 +41,7 @@ QString LocalPatchSource::name() const
 
 QIcon LocalPatchSource::icon() const
 {
-    return KIcon("text-x-patch");
+    return QIcon::fromTheme("text-x-patch");
 }
 
 void LocalPatchSource::update()

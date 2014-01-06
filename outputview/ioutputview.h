@@ -97,7 +97,7 @@ public:
      *          methods
      */
     virtual int registerToolView( const QString& title, ViewType type = OneView,
-                                  const KIcon& icon = KIcon(), Options option = ShowItemsButton,
+                                  const KIcon& icon = QIcon::fromTheme(), Options option = ShowItemsButton,
                                   const QList<QAction*>& actionList = QList<QAction*>()) = 0;
 
     /**
