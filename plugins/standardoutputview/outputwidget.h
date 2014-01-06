@@ -36,7 +36,7 @@ class QModelIndex;
 class ToolViewData;
 class KTabWidget;
 class KToggleAction;
-class KAction;
+class QAction;
 class KLineEdit;
 class StandardOutputViewTest;
 
@@ -88,8 +88,8 @@ private:
     const ToolViewData* data;
     QToolButton* m_closeButton;
     QAction* m_closeOthersAction;
-    KAction* nextAction;
-    KAction* previousAction;
+    QAction* nextAction;
+    QAction* previousAction;
     KToggleAction* activateOnSelect;
     KToggleAction* focusOnSelect;
     KLineEdit *filterInput;
